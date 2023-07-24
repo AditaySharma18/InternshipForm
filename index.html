@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <div id="container">
+        <h1 style="text-align: center; color: green"> INTERNSHIP FORM</h1>
+        <label for="uname" class="lbl">Name</label>
+        <br>
+        <br>
+        <input type="text" id="uname" placeholder="Enter your Name">
+        <br>
+        <br>
+        <br>
+        <label for="uemail" class="lbl">E-mail</label>
+        <br>
+        <br>
+        <input type="text" id="uemail" placeholder="Enter your E-mail">
+        <br>
+        <br>
+        <br>
+        <label for="uphone" class="lbl">Phone Number</label>
+        <br>
+        <br>
+        <input type="text" id="uphone" placeholder="Enter your Phone Number">
+        <br>
+        <br>
+        <br>
+
+
+        <p class="lbl">DEPARTMENT NAME (BRANCH)</p>
+        <input type="radio" id="uradio1" name="choice" value="CSE">
+        <label for="uradio1" class="lbl">CSE</label>
+        <br>
+        <input type="radio" id="uradio2" name="choice" value="IT">
+        <label for="uradio2" class="lbl">IT</label>
+        <br>
+        <input type="radio" id="uradio3" name="choice" value="ECE">
+        <label for="uradio3" class="lbl">ECE</label>
+        <br>
+        <input type="radio" id="uradio4" name="choice" value="CE">
+        <label for="uradio4" class="lbl">CE</label>
+        <br>
+        <input type="radio" id="uradio5" name="choice" value="ME">
+        <label for="uradio5" class="lbl">ME</label>
+        <br>
+        <input type="radio" id="uradio6" name="choice" value="EEE">
+        <label for="uradio6" class="lbl">EEE</label>
+        <br>
+        <br>
+        <br>
+        
+
+        <label for="udomain" class="lbl">INTERESTED DOMAIN</label>
+        <br>
+        <br>
+        <select id="udomain" name="userdomain">
+            <option selected>Select the required field</option>
+            <option>Web Devlopment</option>
+            <option>Android Devlopment</option>
+            <option>Game Devlopment</option>
+            <option>Machine Learning</option>
+            <option>Artificial Intelligence</option>
+            <option>Cloud Computing</option>
+            <option>Full Stack Devlopment</option>
+            <option>Robotics</option>
+            <option>Marketing</option>
+            <option>Iot</option>
+        </select>
+        <br>
+        <br>
+
+
+        <p class="lbl">PREFERED LOCATION</p>
+        <input type="checkbox" id="ucheck1">
+        <label for="ucheck1" class="lbl">Bengaluru</label>
+        <br>
+        <input type="checkbox" id="ucheck2">
+        <label for="ucheck2" class="lbl">Hyderabad</label>
+        <br>
+        <input type="checkbox" id="ucheck3">
+        <label for="ucheck3" class="lbl">Kolkata</label>
+        <br>
+        <br>
+        <br>
+
+
+        <label for="umonth" class="lbl">PREFERED MONTH</label>
+        <br>
+        <br>
+        <select id="umonth" name="usermonth">
+            <option selected>Select the month</option>
+            <option>April-May</option>
+            <option>May-June</option>
+            <option>June-July</option>
+            <option>July-August</option>
+            <option>August-September</option>
+        </select>
+        <br>
+        <br>
+        <br>
+
+
+        <label for="ucoment" class="lbl">COMMENT</label>
+        <br>
+        <br>
+        <textarea id="ucoment" rows="12" cols="100" placeholder="Enter your comment"></textarea>
+        <br>
+        <br>
+        <br>
+
+
+        <input type="submit" value="Submit Form" id="submitton">
+    </div>
+    
+</body>
+</html>
